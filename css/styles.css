@@ -1,0 +1,198 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: "Montserrat"; }
+
+section {
+  padding: 50px 80px; }
+
+a {
+  text-decoration: none; }
+
+.heading h2 {
+  margin-bottom: 30px;
+  font-weight: 300;
+  text-align: center;
+  padding-bottom: 20px; }
+
+.heading .border {
+  background-color: rgba(48, 49, 51, 0.7);
+  padding: 15px;
+  border-radius: 5px;
+  color: #dddddd; }
+
+header {
+  background-color: #303133;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 10px 0 30px; }
+
+header h1 {
+  padding: 20px;
+  font-size: 50px;
+  font-weight: 300;
+  color: #4169ce;
+  margin-bottom: 10px; }
+
+nav ul {
+  list-style: none; }
+
+nav ul li {
+  display: inline;
+  padding: 5px 15px; }
+
+nav ul li a {
+  text-decoration: none; }
+
+nav a:link,
+nav a:visited {
+  color: #aab5c1; }
+
+nav a:hover {
+  color: #f4f4f4; }
+
+nav a:active {
+  position: relative;
+  top: 1px; }
+
+#site-info {
+  background-color: #f3f3f3;
+  border-bottom: solid 1px #d8d8d8; }
+
+#site-info p {
+  padding: 5px 30px 15px;
+  line-height: 1.6em;
+  text-align: justify; }
+
+#site-info .button {
+  display: block;
+  background-color: #4169ce;
+  padding: 15px;
+  color: #f4f4f4;
+  border-radius: 5px;
+  margin: 20px auto;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  width: 250px; }
+
+#site-info .button:hover {
+  background-color: #303133; }
+
+#testimonials {
+  background-color: #f3f3f3; }
+
+#testimonials a:link,
+#testimonials a:visited {
+  color: #303133; }
+
+#testimonials .container {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0; }
+
+#testimonials h3 {
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  color: #4169ce; }
+
+#testimonials .left-testimonial {
+  border-radius: 5px;
+  width: 30vw;
+  height: 120px;
+  padding: 30px;
+  margin-right: 50px;
+  margin-bottom: 50px;
+  box-shadow: 2px 2px 5px 2px #aab5c1; }
+
+#testimonials .right-testimonial {
+  border-radius: 5px;
+  width: 30vw;
+  height: 120px;
+  padding: 30px;
+  margin-bottom: 50px;
+  box-shadow: 2px 2px 5px 2px #aab5c1; }
+
+#testimonials .testimonial-link:hover {
+  text-shadow: 1px 1px 1px rgba(48, 49, 71, 0.3); }
+
+footer {
+  background-color: #303133;
+  padding: 15px;
+  display: flex; }
+
+footer div {
+  width: 50vw; }
+
+footer p {
+  color: #4169ce; }
+
+footer #contact-email {
+  color: #aab5c1; }
+
+#footer-links {
+  float: right;
+  text-align: right;
+  padding: 10px 0; }
+
+footer ul {
+  list-style: none; }
+
+footer ul li {
+  display: inline;
+  text-transform: uppercase;
+  padding-right: 12px;
+  font-size: 14px;
+  font-weight: bold; }
+
+footer ul li a:link,
+footer ul li a:visited {
+  color: #aab5c1; }
+
+footer ul li a:hover {
+  color: #f4f4f4; }
+
+footer ul li a:active {
+  position: relative;
+  top: 1px; }
+
+@media (max-width: 650px) {
+  nav ul li {
+    display: block; }
+
+  section {
+    padding: 10px; }
+
+  .heading h2 {
+    font-size: 20px;
+    margin-top: 20px; }
+
+  #site-info p {
+    padding: 5px 20px 15px;
+    text-align: justify; }
+
+  #testimonials .container {
+    display: block; }
+
+  #testimonials .left-testimonial,
+  #testimonials .right-testimonial {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify; }
+
+  footer {
+    flex-direction: column; }
+
+  footer div {
+    width: 100%;
+    text-align: center;
+    padding: 20px 0; }
+
+  footer ul li {
+    display: block;
+    text-align: center; } }
+
+/*# sourceMappingURL=styles.css.map */
